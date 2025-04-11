@@ -1,0 +1,33 @@
+@use './fonts' as *;
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+
+  :root {
+    --color-bg: #ffffff;
+    --color-bg-subtle: #ECEBE7;
+    --color-text: #0f172a;
+    --color-text-light: #ffffff;
+    --color-muted: #64748b;
+    --color-accent: #69A2FF;
+    --color-dark: #0f172a;
+  }
+  
+  html[data-theme='dark'] {
+    --color-bg: #0f172a;
+    --color-bg-subtle: #1e1e1e;
+    --color-text: #ffffff;
+    --color-text-light: #ffffff;
+    --color-muted: #94a3b8;
+    --color-accent: #69A2FF;
+    --color-dark: #1e293b;
+  }
+  
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: "Campten", sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
