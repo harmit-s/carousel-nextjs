@@ -22,7 +22,7 @@ const ThemeToggle = () => {
         background: "none",
         border: "none",
         cursor: "pointer",
-        padding: "0.5rem",
+        padding: "0rem",
       }}
     >
       {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}

@@ -16,6 +16,6 @@ now integrated:
 
 - Manual translation switching using simple objects
 
-- Language-aware TopNavBar, Header, and SignupSection
+- Language-aware TopNavBar, Header, Carousel, footer and SignupSection
 
 - Carousel with favorites, modal, swipe, autoplay, and progress bar

@@ -21,7 +21,14 @@ export type TranslationKeys = {
     signupPrompt: string;
     signupPlaceholder: string;
     signupButton: string;
-
+    Shop: string;
+    Explore: string;
+    Company: string;
+    Support: string;
+    FollowUs: string;
+    copyright: string;
+    privacy: string;
+    terms: string;
 };
 
 export type SupportedLanguages = "EN" | "FR";
@@ -58,6 +65,15 @@ const translations: Record<SupportedLanguages, TranslationKeys> = {
         signupPlaceholder: "Email",
         signupButton: "Sign up",
 
+        //footer 
+        Shop: "Shop",
+        Explore: "Explore",
+        Company: "Company",
+        Support: "Support",
+        FollowUs: "Follow Us",
+        copyright: "© 2024 Cozey Inc. All rights reserved.",
+        privacy: "Privacy Policy",
+        terms: "Terms of Use",
     },
 
     FR: {
@@ -91,6 +107,15 @@ const translations: Record<SupportedLanguages, TranslationKeys> = {
         signupPlaceholder: "E-mail",
         signupButton: "S'inscrire",
 
+        //footer
+        Shop: "Boutique",
+        Explore: "Explorer",
+        Company: "Entreprise",
+        Support: "Soutien",
+        FollowUs: "Suivez-nous",
+        copyright: "© 2024 Cozey Inc. Tous droits réservés.",
+        privacy: "Politique de confidentialité",
+        terms: "Conditions d'utilisation",
     },
 };
 
